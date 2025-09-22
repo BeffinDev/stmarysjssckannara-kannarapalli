@@ -24,10 +24,10 @@ function App() {
   return (
     <>
       <HelmetProvider>
-        <Router>
+        <Router basename="/stmarysjssckannara-kannarapalli/">
           <ScrollToTop />
           {/* <Suspense fallback={<div className="loaderOverlay">Loading.....</div>}> */}
-          <Routes>
+          <Routes >
             <Route path="*" element={<Error404Page />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
