@@ -24,7 +24,8 @@ function App() {
   return (
     <>
       <HelmetProvider>
-        <Router basename="/stmarysjssckannara-kannarapalli/">
+        {/* <Router basename={import.meta.env.BASE_URL}> */}
+        <Router >
           <ScrollToTop />
           {/* <Suspense fallback={<div className="loaderOverlay">Loading.....</div>}> */}
           <Routes >
