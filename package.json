@@ -1,6 +1,7 @@
 {
   "name": "stmarysjssckannara-kannarapalli",
   "private": true,
+  "homepage": "https://kannarapalli.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
